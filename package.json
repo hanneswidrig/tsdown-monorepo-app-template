@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "type": "module",
   "scripts": {
-    "deps": "pnpm up -r --latest --interactive",
+    "up": "pnpm up -r --latest --interactive",
     "build": "tsdown",
     "dev": "tsdown --watch",
     "typecheck": "tsgo",
@@ -16,10 +16,10 @@
   "devDependencies": {
     "@types/node": "catalog:",
     "@typescript/native-preview": "catalog:",
-    "oxfmt": "^0.51.0",
-    "oxlint": "^1.66.0",
-    "oxlint-tsgolint": "^0.23.0",
+    "oxfmt": "catalog:oxc",
+    "oxlint": "catalog:oxc",
+    "oxlint-tsgolint": "catalog:oxc",
     "tsdown": "catalog:"
   },
-  "packageManager": "pnpm@11.2.2"
+  "packageManager": "pnpm@11.5.1"
 }
