@@ -15,11 +15,11 @@
   },
   "devDependencies": {
     "@types/node": "catalog:",
-    "@typescript/native-preview": "catalog:",
     "oxfmt": "catalog:oxc",
     "oxlint": "catalog:oxc",
     "oxlint-tsgolint": "catalog:oxc",
-    "tsdown": "catalog:"
+    "tsdown": "catalog:",
+    "typescript": "catalog:"
   },
-  "packageManager": "pnpm@11.5.1"
+  "packageManager": "pnpm@11.9.0"
 }
