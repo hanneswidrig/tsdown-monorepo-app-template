@@ -6,12 +6,12 @@ allowBuilds:
   esbuild: true
 
 catalog:
-  "@types/node": ^26.1.0
-  tsdown: ^0.22.3
-  typescript: 7.0.1-rc
+  "@types/node": ^26.1.1
+  tsdown: ^0.22.8
+  typescript: 7.0.2
 
 catalogs:
   oxc:
-    oxfmt: ^0.57.0
-    oxlint: ^1.72.0
+    oxfmt: ^0.59.0
+    oxlint: ^1.74.0
     oxlint-tsgolint: ^0.24.0

@@ -6,7 +6,7 @@
     "up": "pnpm up -r --latest --interactive",
     "build": "tsdown",
     "dev": "tsdown --watch",
-    "typecheck": "tsgo",
+    "typecheck": "tsc --noEmit",
     "prepublishOnly": "pnpm run build",
     "lint": "oxlint",
     "lint:fix": "oxlint --fix",
@@ -21,5 +21,5 @@
     "tsdown": "catalog:",
     "typescript": "catalog:"
   },
-  "packageManager": "pnpm@11.9.0"
+  "packageManager": "pnpm@12.0.0-alpha.10"
 }
