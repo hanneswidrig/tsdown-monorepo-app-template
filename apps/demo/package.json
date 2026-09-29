@@ -12,10 +12,13 @@
       "./package.json": "./package.json"
     }
   },
+  "scripts": {
+    "pack": "vp pack"
+  },
   "devDependencies": {
     "@lib/aurora": "workspace:*",
     "@lib/nebula": "workspace:*",
     "@lib/zenith": "workspace:*",
-    "tsdown": "catalog:"
+    "vite-plus": "catalog:"
   }
 }

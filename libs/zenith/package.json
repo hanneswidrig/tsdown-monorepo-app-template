@@ -11,5 +11,8 @@
       ".": "./dist/index.mjs",
       "./package.json": "./package.json"
     }
+  },
+  "scripts": {
+    "pack": "vp pack"
   }
 }

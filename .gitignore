@@ -5,6 +5,9 @@ dist/
 # TypeScript cache
 *.tsbuildinfo
 
+# Vite+ generated Git hook dispatcher (recreated by `vp config`)
+.vite-hooks/_/
+
 # Optional npm cache directory
 .npm
 

@@ -4,22 +4,20 @@
   "type": "module",
   "scripts": {
     "up": "pnpm up -r --latest --interactive",
-    "build": "tsdown",
-    "dev": "tsdown --watch",
+    "build": "vp run -r pack",
+    "dev": "vp run -r pack --watch",
     "typecheck": "tsc --noEmit",
     "prepublishOnly": "pnpm run build",
-    "lint": "oxlint",
-    "lint:fix": "oxlint --fix",
-    "fmt": "oxfmt",
-    "fmt:check": "oxfmt --check"
+    "lint": "vp lint",
+    "lint:fix": "vp lint --fix",
+    "fmt": "vp fmt",
+    "fmt:check": "vp fmt --check",
+    "prepare": "vp config"
   },
   "devDependencies": {
     "@types/node": "catalog:",
-    "oxfmt": "catalog:oxc",
-    "oxlint": "catalog:oxc",
-    "oxlint-tsgolint": "catalog:oxc",
-    "tsdown": "catalog:",
-    "typescript": "catalog:"
+    "typescript": "catalog:",
+    "vite-plus": "catalog:"
   },
-  "packageManager": "pnpm@11.21.0"
+  "packageManager": "pnpm@12.6.0"
 }
